@@ -28,7 +28,6 @@ const [todos, setTodos] = useState([]);
     } catch (err) {
       console.error(err.message);
     }
-    console.log(process.env.REACT_APP_URL)
   };
 
   useEffect(() => {
